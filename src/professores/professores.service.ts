@@ -6,7 +6,7 @@ import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
 
 @Injectable()
-export class ProfessoresService {
+export class ProfessoresServicekk {
 
     async create(data: any) {
         return await prisma.professor.create({ data });
